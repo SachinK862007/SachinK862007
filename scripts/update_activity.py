@@ -1,0 +1,113 @@
+import json
+import os
+import re
+import urllib.request
+
+USERNAME = os.environ.get("GH_USERNAME", "SachinK862007")
+API_URL = f"https://api.github.com/users/{USERNAME}/events/public"
+README_PATH = "README.md"
+MAX_ITEMS = 5
+
+# Real GitHub icons — Primer Octicons is GitHub's own official icon library,
+# the same set used across github.com itself.
+ICON_BASE = "https://raw.githubusercontent.com/primer/octicons/main/icons"
+ICONS = {
+    "push": f"{ICON_BASE}/git-commit-16.svg",
+    "pr_open": f"{ICON_BASE}/git-pull-request-16.svg",
+    "pr_merge": f"{ICON_BASE}/git-merge-16.svg",
+    "issue_open": f"{ICON_BASE}/issue-opened-16.svg",
+    "issue_close": f"{ICON_BASE}/issue-closed-16.svg",
+}
+
+
+def fetch_events():
+    headers = {
+        "User-Agent": "readme-activity-bot",
+        "Accept": "application/vnd.github+json",
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(API_URL, headers=headers)
+    with urllib.request.urlopen(req) as res:
+        return json.loads(res.read().decode())
+
+
+def format_event(event):
+    repo = event["repo"]["name"]
+    repo_url = f"https://github.com/{repo}"
+    etype = event["type"]
+    payload = event.get("payload", {})
+
+    if etype == "PushEvent":
+        commits = payload.get("commits", [])
+        if not commits:
+            return None
+        sha = commits[-1]["sha"][:7]
+        commit_url = f"{repo_url}/commit/{commits[-1]['sha']}"
+        return ICONS["push"], f"Pushed commit {sha} to {repo}", commit_url
+
+    if etype == "PullRequestEvent":
+        pr = payload.get("pull_request", {})
+        number = pr.get("number")
+        url = pr.get("html_url", repo_url)
+        if payload.get("action") == "closed" and pr.get("merged"):
+            return ICONS["pr_merge"], f"Merged PR #{number} in {repo}", url
+        if payload.get("action") == "opened":
+            return ICONS["pr_open"], f"Opened PR #{number} in {repo}", url
+        return None
+
+    if etype == "IssuesEvent":
+        issue = payload.get("issue", {})
+        number = issue.get("number")
+        url = issue.get("html_url", repo_url)
+        if payload.get("action") == "opened":
+            return ICONS["issue_open"], f"Opened issue #{number} in {repo}", url
+        if payload.get("action") == "closed":
+            return ICONS["issue_close"], f"Closed issue #{number} in {repo}", url
+        return None
+
+    return None
+
+
+def build_lines(events):
+    lines = []
+    for event in events:
+        formatted = format_event(event)
+        if formatted:
+            icon, text, url = formatted
+            lines.append(
+                f'<a href="{url}"><img src="{icon}" width="16" valign="middle"/> {text}</a><br>'
+            )
+        if len(lines) >= MAX_ITEMS:
+            break
+    if not lines:
+        lines.append("No recent public activity found.")
+    return "\n".join(lines)
+
+
+def update_readme(activity_block):
+    with open(README_PATH, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    pattern = r"(<!--START_SECTION:activity-->)(.*?)(<!--END_SECTION:activity-->)"
+    safe_block = activity_block.replace("\\", "\\\\")
+    new_content = re.sub(
+        pattern,
+        lambda m: f"{m.group(1)}\n{safe_block}\n{m.group(3)}",
+        content,
+        flags=re.DOTALL,
+    )
+
+    with open(README_PATH, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
+
+def main():
+    events = fetch_events()
+    activity_block = build_lines(events)
+    update_readme(activity_block)
+
+
+if __name__ == "__main__":
+    main()
