@@ -6,17 +6,23 @@ import urllib.request
 USERNAME = os.environ.get("GH_USERNAME", "SachinK862007")
 API_URL = f"https://api.github.com/users/{USERNAME}/events/public"
 README_PATH = "README.md"
-MAX_ITEMS = 5
+MAX_ITEMS = 8
 
 # Real GitHub icons — Primer Octicons is GitHub's own official icon library,
-# the same set used across github.com itself.
-ICON_BASE = "https://raw.githubusercontent.com/primer/octicons/main/icons"
+# the same set used across github.com itself. Served via Iconify's API instead
+# of raw.githubusercontent.com, because raw.githubusercontent.com sends SVGs
+# with a text/plain content type, which browsers refuse to render as images —
+# that's why icons weren't showing up before. Iconify serves the same icons
+# with the correct image/svg+xml type, and lets us bake in a fixed color so
+# the icon is visible on both light and dark GitHub themes.
+ICON_COLOR = "6e7681"  # neutral gray, readable on both light and dark backgrounds
+ICON_BASE = f"https://api.iconify.design/octicon"
 ICONS = {
-    "push": f"{ICON_BASE}/git-commit-16.svg",
-    "pr_open": f"{ICON_BASE}/git-pull-request-16.svg",
-    "pr_merge": f"{ICON_BASE}/git-merge-16.svg",
-    "issue_open": f"{ICON_BASE}/issue-opened-16.svg",
-    "issue_close": f"{ICON_BASE}/issue-closed-16.svg",
+    "push": f"{ICON_BASE}:git-commit-16.svg?color=%23{ICON_COLOR}",
+    "pr_open": f"{ICON_BASE}:git-pull-request-16.svg?color=%23{ICON_COLOR}",
+    "pr_merge": f"{ICON_BASE}:git-merge-16.svg?color=%23{ICON_COLOR}",
+    "issue_open": f"{ICON_BASE}:issue-opened-16.svg?color=%23{ICON_COLOR}",
+    "issue_close": f"{ICON_BASE}:issue-closed-16.svg?color=%23{ICON_COLOR}",
 }
 
 
@@ -77,7 +83,7 @@ def build_lines(events):
         if formatted:
             icon, text, url = formatted
             lines.append(
-                f'<a href="{url}"><img src="{icon}" width="16" valign="middle"/> {text}</a><br>'
+                f'<a href="{url}"><img src="{icon}" width="16" valign="middle"/> {text}</a><br><br>'
             )
         if len(lines) >= MAX_ITEMS:
             break
