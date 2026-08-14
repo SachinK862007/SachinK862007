@@ -33,11 +33,6 @@
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #11 in SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #10 in SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #9 in SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/sk-demo-repo"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #5 in SachinK862007/sk-demo-repo</a><br><br>
-<a href="https://github.com/SachinK862007/sk-demo-repo"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #3 in SachinK862007/sk-demo-repo</a><br><br>
 <!--END_SECTION:activity-->
 
 </td>
@@ -47,10 +42,10 @@
 <div align="left">
 
 <a href="https://www.linkedin.com/in/sachin-gowda-k-m5911/" target="_blank">
-  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="40" height="40" />
+  <img src="https://api.iconify.design/mdi:linkedin.svg?color=%230A66C2" width="40" height="40" />
 </a>
 <a href="https://www.reddit.com/user/unknown_SK_001/" target="_blank">
-  <img src="https://cdn.simpleicons.org/reddit/FF4500" width="40" height="40" />
+  <img src="https://api.iconify.design/mdi:reddit.svg?color=%23FF4500" width="40" height="40" />
 </a>
 <a href="https://x.com/SK37085550" target="_blank">
   <img src="https://cdn.simpleicons.org/x/000000/FFFFFF" width="40" height="40" />
