@@ -6,7 +6,7 @@ import urllib.request
 USERNAME = os.environ.get("GH_USERNAME", "SachinK862007")
 API_URL = f"https://api.github.com/users/{USERNAME}/events/public"
 README_PATH = "README.md"
-MAX_ITEMS = 8
+MAX_ITEMS = 6
 
 # Real GitHub icons — Primer Octicons is GitHub's own official icon library,
 # the same set used across github.com itself. Served via Iconify's API instead
