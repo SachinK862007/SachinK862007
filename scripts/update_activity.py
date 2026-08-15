@@ -23,6 +23,9 @@ ICONS = {
     "pr_merge": f"{ICON_BASE}:git-merge-16.svg?color=%23{ICON_COLOR}",
     "issue_open": f"{ICON_BASE}:issue-opened-16.svg?color=%23{ICON_COLOR}",
     "issue_close": f"{ICON_BASE}:issue-closed-16.svg?color=%23{ICON_COLOR}",
+    "comment": f"{ICON_BASE}:comment-16.svg?color=%23{ICON_COLOR}",
+    "review": f"{ICON_BASE}:eye-16.svg?color=%23{ICON_COLOR}",
+    "create": f"{ICON_BASE}:repo-16.svg?color=%23{ICON_COLOR}",
 }
 
 
@@ -47,10 +50,16 @@ def format_event(event):
 
     if etype == "PushEvent":
         commits = payload.get("commits", [])
-        if not commits:
+        head_sha = payload.get("head") or payload.get("after")
+        if commits:
+            sha = commits[-1]["sha"][:7]
+            full_sha = commits[-1]["sha"]
+        elif head_sha:
+            sha = head_sha[:7]
+            full_sha = head_sha
+        else:
             return None
-        sha = commits[-1]["sha"][:7]
-        commit_url = f"{repo_url}/commit/{commits[-1]['sha']}"
+        commit_url = f"{repo_url}/commit/{full_sha}"
         return ICONS["push"], f"Pushed commit {sha} to {repo}", commit_url
 
     if etype == "PullRequestEvent":
@@ -72,6 +81,22 @@ def format_event(event):
         if payload.get("action") == "closed":
             return ICONS["issue_close"], f"Closed issue #{number} in {repo}", url
         return None
+
+    if etype == "IssueCommentEvent":
+        issue = payload.get("issue", {})
+        number = issue.get("number")
+        url = payload.get("comment", {}).get("html_url", issue.get("html_url", repo_url))
+        kind = "PR" if "pull_request" in issue else "issue"
+        return ICONS["comment"], f"Commented on {kind} #{number} in {repo}", url
+
+    if etype == "PullRequestReviewEvent":
+        pr = payload.get("pull_request", {})
+        number = pr.get("number")
+        url = payload.get("review", {}).get("html_url", pr.get("html_url", repo_url))
+        return ICONS["review"], f"Reviewed PR #{number} in {repo}", url
+
+    if etype == "CreateEvent" and payload.get("ref_type") == "repository":
+        return ICONS["create"], f"Created repository {repo}", repo_url
 
     return None
 
