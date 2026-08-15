@@ -7,7 +7,7 @@
 ### About Me
 
 - Computer Science undergraduate, specializing in Artificial Intelligence and Machine Learning.
-- Works with Python, FastAPI, SQLite, and Streamlit.
+- Working on the feature technology like AGI. 
 - Comfortable with asynchronous programming and backend design.
 - Familiar with PyTorch, TensorFlow, and Hugging Face.
 - Interested in system design and software architecture.
