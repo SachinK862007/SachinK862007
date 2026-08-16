@@ -33,12 +33,12 @@
 ### Recent Activity
 
 <!--START_SECTION:activity-->
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/72076558e4853d8cc5f84f59a92a00a83344d60b"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 7207655 to SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #14 in SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/8e625f416b5a00e8d5aa7bb28ee85a01f285b9c8"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 8e625f4 to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/4134747147600e135d144cb38fbd712a648dd3ae"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 4134747 to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #13 in SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/24647c89d6549a4bbdfb246ed502195279959bf4"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 24647c8 to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/SachinK862007/commit/5b4cd55ecdd78618fe50ab089d67691b9218ecfd"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 5b4cd55 to SachinK862007/SachinK862007</a><br><br>
-<a href="https://github.com/SachinK862007/SachinK862007/commit/b4e1edf47d95a6b60c81e3873181302a708033e9"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit b4e1edf to SachinK862007/SachinK862007</a><br><br>
-<a href="https://github.com/SachinK862007/SachinK862007/commit/304f2c796b040676971a87e607ab5c131b0056f2"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 304f2c7 to SachinK862007/SachinK862007</a><br><br>
 <!--END_SECTION:activity-->
 
 </td>
