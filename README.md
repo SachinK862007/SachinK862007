@@ -33,12 +33,12 @@
 ### Recent Activity
 
 <!--START_SECTION:activity-->
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/8e2a01728b730cd2be487eaee7483eebbd7d8ba7"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 8e2a017 to SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #23 in SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/eb64b4dd0ba70c1084a64e92f313ad6804b5d62e"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit eb64b4d to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/119072e913ae0635e122bea8bc41026fc2eb6dda"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 119072e to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/975746d184e6d5c84dccfcacad0e1d933c65f983"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 975746d to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/5455a37b201c35bde47407735f4e0e1f208d6f38"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 5455a37 to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/d25d2a5f60659d8cfdc5c25188873a747d1110ba"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit d25d2a5 to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #22 in SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #21 in SachinK862007/PySync-Chat</a><br><br>
 <!--END_SECTION:activity-->
 
 </td>
