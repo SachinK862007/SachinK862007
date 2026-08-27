@@ -33,12 +33,12 @@
 ### Recent Activity
 
 <!--START_SECTION:activity-->
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/eedf2cbbce0f38e5b68e720792c9c406b32fb325"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit eedf2cb to SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/c9a89d683fa2d01c52656d6c165195bade92b533"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit c9a89d6 to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #24 in SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/8e2a01728b730cd2be487eaee7483eebbd7d8ba7"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 8e2a017 to SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #23 in SachinK862007/PySync-Chat</a><br><br>
 <a href="https://github.com/SachinK862007/PySync-Chat/commit/eb64b4dd0ba70c1084a64e92f313ad6804b5d62e"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit eb64b4d to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/119072e913ae0635e122bea8bc41026fc2eb6dda"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 119072e to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/975746d184e6d5c84dccfcacad0e1d933c65f983"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 975746d to SachinK862007/PySync-Chat</a><br><br>
 <!--END_SECTION:activity-->
 
 </td>
