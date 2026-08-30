@@ -33,12 +33,12 @@
 ### Recent Activity
 
 <!--START_SECTION:activity-->
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/27e318e4ef9999d828c26874bd29bb4b2b635652"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 27e318e to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/d0d3881e245d23ba263fba2c3cbc24e9535b50a4"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit d0d3881 to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/4fe23656d9f01575dde367311089da3d81bd603e"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 4fe2365 to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/bcb070376d29581972c5b03ab271f4400474257a"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit bcb0703 to SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #27 in SachinK862007/PySync-Chat</a><br><br>
-<a href="https://github.com/SachinK862007/PySync-Chat/commit/0533c90252a0a3b307aad91150510b13bf234bfc"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 0533c90 to SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/Practic-Foundation"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #2 in SachinK862007/Practic-Foundation</a><br><br>
+<a href="https://github.com/SachinK862007/Practic-Foundation/commit/41dcc2e461e64d2158309898cf7ff5b50d4117e7"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 41dcc2e to SachinK862007/Practic-Foundation</a><br><br>
+<a href="https://github.com/SachinK862007/Practic-Foundation/commit/ef42a9b664c3cdf93734c0382f8062d9a621264b"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit ef42a9b to SachinK862007/Practic-Foundation</a><br><br>
+<a href="https://github.com/SachinK862007/PySync-Chat/commit/6594d41a988759fe786610debf40ba50a4dd4528"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 6594d41 to SachinK862007/PySync-Chat</a><br><br>
+<a href="https://github.com/SachinK862007/Practic-Foundation"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #1 in SachinK862007/Practic-Foundation</a><br><br>
+<a href="https://github.com/SachinK862007/Practic-Foundation/commit/f7c50e59dec4f8825ac39536ef8371644242bd8f"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit f7c50e5 to SachinK862007/Practic-Foundation</a><br><br>
 <!--END_SECTION:activity-->
 
 </td>
