@@ -33,12 +33,12 @@
 ### Recent Activity
 
 <!--START_SECTION:activity-->
+<a href="https://github.com/SachinK862007/Practic-Foundation/commit/4f5affca2c1498040eca1b5a5e411713e56dec7f"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 4f5affc to SachinK862007/Practic-Foundation</a><br><br>
 <a href="https://github.com/SachinK862007/Practic-Foundation/commit/52769f016ce76c6d39bf0bc635a0e4ebc15d95af"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 52769f0 to SachinK862007/Practic-Foundation</a><br><br>
 <a href="https://github.com/SachinK862007/Practic-Foundation"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #9 in SachinK862007/Practic-Foundation</a><br><br>
 <a href="https://github.com/SachinK862007/Practic-Foundation/commit/e362da4b61159594c1ed6996ba8e8658fd0d8424"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit e362da4 to SachinK862007/Practic-Foundation</a><br><br>
 <a href="https://github.com/SachinK862007/Practic-Foundation/commit/8d1da0a83db9698f2ef76636cea438ef39e9e5d2"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit 8d1da0a to SachinK862007/Practic-Foundation</a><br><br>
 <a href="https://github.com/SachinK862007/Practic-Foundation"><img src="https://api.iconify.design/octicon:git-pull-request-16.svg?color=%236e7681" width="16" valign="middle"/> Opened PR #8 in SachinK862007/Practic-Foundation</a><br><br>
-<a href="https://github.com/SachinK862007/Practic-Foundation/commit/a1200a1bf142ca8b3f17b63bba7ed14cb94afe8d"><img src="https://api.iconify.design/octicon:git-commit-16.svg?color=%236e7681" width="16" valign="middle"/> Pushed commit a1200a1 to SachinK862007/Practic-Foundation</a><br><br>
 <!--END_SECTION:activity-->
 
 </td>
