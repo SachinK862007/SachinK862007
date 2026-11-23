@@ -6,17 +6,27 @@ on:
   push:
   workflow_dispatch:
 
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
 jobs:
   update:
-    name: Update README with recent activity
+    name: Update activity and stats
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch activity and update README
+      - name: Update recent activity
         run: python3 scripts/update_activity.py
+        env:
+          GH_USERNAME: SachinK862007
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update stats card
+        run: python3 scripts/generate_stats.py
         env:
           GH_USERNAME: SachinK862007
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -25,10 +35,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/stats.svg
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update recent activity"
+            git commit -m "chore: update recent activity and stats"
+            git pull --rebase
             git push
           fi
